@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3 uid="uid://qwplhgki35xh"]
+
+[ext_resource type="Script" uid="uid://cre1ryeipm24" path="res://score/label_1.gd" id="1_5hukc"]
+[ext_resource type="Script" uid="uid://cpw0x1e763kvh" path="res://score/label_2.gd" id="1_ccge3"]
+
+[node name="Node" type="Node"]
+metadata/_edit_horizontal_guides_ = [123.0]
+metadata/_edit_vertical_guides_ = [128.0, 1027.0]
+
+[node name="Label2" type="Label" parent="."]
+offset_left = 1012.0
+offset_top = 114.0
+offset_right = 1052.0
+offset_bottom = 137.0
+script = ExtResource("1_ccge3")
+
+[node name="Label1" type="Label" parent="."]
+offset_left = 108.0
+offset_top = 111.0
+offset_right = 148.0
+offset_bottom = 134.0
+script = ExtResource("1_5hukc")
